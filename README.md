@@ -19,10 +19,10 @@ Examples
 
 On Linux/macOS shells you can use a single-line prefix:
 
-  DEPLOY_BASE=/your/base/ npm run build
+DEPLOY_BASE=/your/base/ npm run build
 
 If you're deploying with `gh-pages` (the `deploy` npm script already present), keep `DEPLOY_BASE` set to the correct base (e.g. `/derashie/`) so asset references are correct.
 
 If you prefer to make assets available at the site root (e.g. `/image/logo.jpg`) you can place static assets in `public/` before building. Files in `public/` are copied directly to the build output.
 
-If you want, I can also set up a cross-platform `build:deploy` script (using `cross-env`) so you can set `DEPLOY_BASE` easily on Windows and Linux. Would you like that? 
+If you want, I can also set up a cross-platform `build:deploy` script (using `cross-env`) so you can set `DEPLOY_BASE` easily on Windows and Linux. Would you like that?
